@@ -1,0 +1,14 @@
+.DetailedAdPage {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.Gallery {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 40px;
+    /*background-color: var(--secondary-bg-color);*/
+    border-radius: 20px;
+    background-color: var(--theme-green);
+}

@@ -1,0 +1,29 @@
+.Moderation {
+    background-color: var(--secondary-bg-color);
+    border-radius: 20px;
+}
+
+.ModerationHistory {
+    padding: 20px;
+}
+
+.ModerationHistory > h3 {
+    padding: 10px 0;
+}
+
+.SpecName {
+    flex-grow: 1;
+    font-weight: 200;
+}
+
+.Column {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 5px;
+}
+
+.Spec {
+    width: 150px;
+    flex-shrink: 0;
+    font-weight: bold;
+}

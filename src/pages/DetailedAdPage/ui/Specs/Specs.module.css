@@ -1,0 +1,28 @@
+.Specs {
+    background-color: var(--secondary-bg-color);
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.SpecsList {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    margin: 0;
+    padding: 20px;
+}
+
+.SpecsList h3 {
+    grid-column: 1 / span 2;
+    margin-bottom: 15px;
+}
+
+.Spec {
+    font-weight: bold;
+    padding-right: 10px;
+    margin: 0;
+}
+
+.SpecsList dd {
+    font-weight: 200;
+    margin: 0;
+}

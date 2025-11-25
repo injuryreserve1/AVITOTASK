@@ -1,0 +1,4 @@
+.ListPage {
+    width: 800px;
+    /*height: calc(100vh - var(--header-height))*/
+}

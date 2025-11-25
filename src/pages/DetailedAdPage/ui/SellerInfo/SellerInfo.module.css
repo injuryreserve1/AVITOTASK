@@ -1,0 +1,30 @@
+.Seller {
+    background-color: var(--secondary-bg-color);
+    border-radius: 20px;
+}
+
+.SellerInfo > h3 {
+    padding: 10px 0;
+}
+
+.Row {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 5px;
+}
+
+.Spec {
+    width: 150px;
+    flex-shrink: 0;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.Value {
+    flex-grow: 1;
+    font-weight: 200;
+}
+
+.SellerInfo {
+    padding: 20px;
+}

@@ -1,0 +1,13 @@
+:root {
+    --primary-bg-color: #dadce0;
+    --secondary-bg-color: #f2f3f0;
+    /*--border-color: #efefef;*/
+    --border-color: #fcfcfc;
+    --font-color: black;
+    --secondary-font-color: white;
+    --theme-green: #1ed760;
+    --theme-red: #ff746c;
+    --theme-yellow: #fce840;
+    --active-color: white;
+}
+/*#88e788*/

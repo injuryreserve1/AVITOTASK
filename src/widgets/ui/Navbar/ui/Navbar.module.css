@@ -1,0 +1,18 @@
+.Navbar {
+    display: flex;
+}
+
+.NavLink {
+    position: relative;
+    color: var(--font-color);
+    text-decoration: none;
+    display: inline-block;
+}
+
+.NavBarItem {
+    padding: 0 10px;
+}
+
+.NavLink:hover {
+    color: rgb(221, 78, 80);
+}

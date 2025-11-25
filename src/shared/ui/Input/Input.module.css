@@ -1,0 +1,75 @@
+.Wrapper {
+    /*margin: 5px;*/
+    /*магическое число, надо было бы решить это по другому но я решил так*/
+    margin-top: -44px;
+}
+
+.rangeslider {
+    font-family: sans-serif;
+    font-size: 14px;
+    position: relative;
+    height: 20px;
+    width: 150px;
+    display: inline-block;
+    margin-top: -5px;
+}
+
+.Labels {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rangeslider input {
+    position: absolute;
+}
+
+.inputRanges {
+    width: 150px;
+    height: 30px;
+    overflow: hidden;
+    outline: none;
+}
+
+.inputRanges[type="range"],
+.inputRanges[type="range"]::-webkit-slider-runnable-track,
+.inputRanges[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: none;
+}
+
+.inputRanges[type="range"]::-webkit-slider-runnable-track {
+    width: 50px;
+    height: 2px;
+    background: var(--secondary-bg-color);
+}
+
+.maxInputRanges[type="range"]::-webkit-slider-runnable-track {
+    background: none;
+}
+
+.inputRanges[type="range"]::-webkit-slider-thumb {
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-top: -7px;
+    background: #fff;
+    border: 1px solid var(--color-headline);
+    border-radius: 25px;
+    cursor: pointer;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.inputRanges[type="range"]::-webkit-slider-thumb:hover {
+    background: #eaefff;
+    border: 1px solid var(--color-primary);
+    outline: 0.5px solid var(--color-primary);
+}
+
+.inputRanges[type="range"]::-webkit-slider-thumb:active {
+    cursor: grabbing;
+}
+
+.minInputRanges[type="range"]::-webkit-slider-thumb {
+    z-index: 2;
+}

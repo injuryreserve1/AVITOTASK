@@ -1,0 +1,19 @@
+@import "reset.css";
+@import "themes/dark.css";
+@import "themes/light.css";
+
+:root {
+    font-family: "Manrope", sans-serif;
+    --header-height: 50px;
+}
+
+.container {
+    background-color: var(--primary-bg-color);
+    color: var(--font-color);
+    min-height: calc(100vh - var(--header-height));
+}
+
+.page {
+    display: grid;
+    place-items: center;
+}

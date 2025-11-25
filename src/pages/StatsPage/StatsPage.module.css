@@ -1,0 +1,27 @@
+.StatsPage {
+    width: 800px;
+    /*min-height: var(100vh - var(--header-height));*/
+}
+
+.Period {
+    margin: 20px 0;
+    padding: 20px 10px;
+    border-radius: 10px;
+    background-color: var(--theme-green);
+}
+
+.Active {
+    color: #00ff15;
+}
+
+.BarChart {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    width: 100%;
+}
+
+.PieChart {
+    display: flex;
+    padding: 5px;
+}

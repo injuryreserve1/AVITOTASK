@@ -1,0 +1,35 @@
+.FilterAds {
+    margin: 10px 0;
+    background-color: var(--theme-green);
+    border-radius: 15px;
+    width: 100%;
+    color: var(--secondary-font-color);
+}
+
+.FilterContainer {
+    padding: 20px;
+}
+
+.FilterContainer > h4 {
+    font-weight: normal;
+}
+
+.Icons {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.Icons > * {
+    margin: 0 5px;
+}
+
+.NotActive {
+    background-color: transparent;
+    border: none;
+}
+
+.CancelBtn {
+    color: var(--secondary-font-color);
+}

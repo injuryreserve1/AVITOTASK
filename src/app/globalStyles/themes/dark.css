@@ -1,0 +1,13 @@
+.dark {
+    --primary-bg-color: #292929;
+    --secondary-bg-color: #1e1e1e;
+    --border-color: #2d2926;
+    /*--border-color: #2a2b2b;*/
+    --font-color: white;
+    --secondary-font-color: white;
+    --theme-green: #1db954;
+    --theme-red: #950606;
+    --theme-yellow: #f1d809;
+    --active-color: black;
+}
+/*#06402b;*/

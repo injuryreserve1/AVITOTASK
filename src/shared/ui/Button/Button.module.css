@@ -1,0 +1,142 @@
+.Button {
+    cursor: pointer;
+    color: var(--secondary-font-color);
+    border-radius: 0.3em;
+}
+
+.clear {
+    background-color: transparent;
+    border: none;
+    color: var(--font-color);
+}
+
+.bordered {
+    background-color: var(--secondary-bg-color);
+    border: 1px solid var(--border-color);
+    color: var(--font-color);
+}
+
+.bordered.S {
+    font-size: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red {
+    background-color: var(--theme-red);
+    border: none;
+}
+
+.green {
+    background-color: var(--theme-green);
+    border: none;
+}
+/*#45782c;*/
+.yellow {
+    background-color: var(--theme-yellow);
+    border: none;
+}
+
+.green.S {
+    font-size: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.green.M {
+    font-size: 16px;
+    padding: 0.5em;
+}
+
+.green.L {
+    font-size: 18px;
+    padding: 0.5rem;
+}
+
+.red.S {
+    font-size: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red.M {
+    font-size: 16px;
+    padding: 0.5em;
+}
+
+.red.L {
+    font-size: 18px;
+    padding: 0.5rem;
+}
+
+.yellow.S {
+    font-size: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yellow.M {
+    font-size: 16px;
+    padding: 0.5em;
+}
+
+.yellow.L {
+    font-size: 18px;
+    padding: 0.5rem;
+}
+
+.bordered.M {
+    font-size: 16px;
+    padding: 0.3em;
+}
+
+.bordered.L {
+    font-size: 20px;
+    padding: 2rem;
+}
+
+.clear.S {
+    font-size: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clear.M {
+    font-size: 16px;
+    padding: 0.5em;
+}
+
+.clear.L {
+    font-size: 20px;
+    padding: 2rem;
+}
+
+.disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.Button.Active {
+    background-color: var(--primary-bg-color);
+    /*padding: 2px;*/
+}

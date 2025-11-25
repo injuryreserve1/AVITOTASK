@@ -1,0 +1,13 @@
+.Statics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Statics > * {
+    width: calc(50% - 10px);
+    padding: 40px 60px;
+    background-color: var(--secondary-bg-color);
+    border-radius: 20px;
+    margin: 5px;
+}

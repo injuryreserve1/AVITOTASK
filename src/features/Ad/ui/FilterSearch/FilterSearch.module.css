@@ -1,0 +1,16 @@
+.SearchForm {
+    width: 100%;
+}
+
+.SearchInput {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--primary-bg-color);
+    color: var(--font-color);
+    text-indent: 10px;
+}
+
+.SearchInput::-webkit-input-placeholder {
+    padding-left: 0px;
+}

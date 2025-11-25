@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  server:
+    build:
+      context: ./tech-int3-server
+      dockerfile: Dockerfile
+
+    ports:
+      - "3001:3001"
+
+    container_name: myapp-server
+
+  client:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    ports:
+      - "3000:80"
+
+    depends_on:
+      - server
+
+    container_name: myapp-client

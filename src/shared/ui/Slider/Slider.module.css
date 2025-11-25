@@ -1,0 +1,9 @@
+.Slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MySlides {
+    margin: 0 10px;
+}
