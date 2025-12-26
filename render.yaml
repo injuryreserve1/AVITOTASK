@@ -3,12 +3,14 @@ services:
     name: myapp-server
     env: docker
     dockerContext: ./tech-int3-server
+    dockerFilePath: ./Dockerfile 
     plan: free
 
   - type: web
     name: myapp-client
     env: docker
     dockerContext: .
+    dockerFilePath: ./Dockerfile
     plan: free
     envVars:
       - key: BACKEND_URL
