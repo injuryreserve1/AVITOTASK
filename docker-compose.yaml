@@ -18,6 +18,9 @@ services:
 
     ports:
       - "3000:80"
+    
+    environment:
+      - BACKEND_URL=/api/v1
 
     depends_on:
       - server
