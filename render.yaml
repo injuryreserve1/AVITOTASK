@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: myapp-server
+    env: docker
+    dockerContext: ./tech-int3-server
+    plan: free
+
+  - type: web
+    name: myapp-client
+    env: docker
+    dockerContext: .
+    plan: free
+    envVars:
+      - key: BACKEND_URL
+        fromService:
+          name: myapp-server
+          type: web
+          property: host
