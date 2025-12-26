@@ -48,7 +48,7 @@ const ListPage = () => {
       minPriceParam,
       maxPriceParam,
       categoryIdParam,
-      statusParam,
+      JSON.stringify(statusParam),
       searchParam,
       sortByParam,
       sortOrderParam,

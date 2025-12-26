@@ -8,7 +8,7 @@ import FilterStatus from "@features/Ad/ui/FilterStatus/FilterStatus";
 import SortIcons from "@features/Ad/ui/SortIcons/SortIcons";
 import FilterSearch from "@features/Ad/ui/FilterSearch/FilterSearch";
 
-//то что я этот тип везде тащу может быть плохо
+
 type Event =
   | React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
   | React.MouseEvent<HTMLButtonElement>;
