@@ -38,5 +38,5 @@ export class StatsApiClient {
 }
 
 export const statsApiClient = new StatsApiClient(
-  "http://localhost:3001/api/v1",
+  "/api/v1",
 );

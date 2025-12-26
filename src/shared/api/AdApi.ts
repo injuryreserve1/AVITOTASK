@@ -69,4 +69,4 @@ export class AdApiClient {
 }
 
 //import.meta.env.BACKEND_URL
-export const adApiClient = new AdApiClient("http://localhost:3001/api/v1");
+export const adApiClient = new AdApiClient("/api/v1");
